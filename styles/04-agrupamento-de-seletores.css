@@ -1,0 +1,16 @@
+h1, h2, p {
+	color: red;
+	text-align: center;
+}
+
+/* Antes do agrupamento
+h2 {
+	color: red;
+	text-align: center;
+}
+
+p {
+	color: red;
+	text-align: center;
+}
+*/
