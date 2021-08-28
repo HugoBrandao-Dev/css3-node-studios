@@ -1,0 +1,20 @@
+#conteudo {
+	/* Trabalhando com pixels
+	width: 500px;
+	height: 100px;
+	*/
+	/* Trabalhando com porcentagem, a tela fica adaptativa.
+	width: 80%; 
+	*/
+	/* Mesmo com valores menores, não aparecerá barra de rolagem
+	max-width: 500px;
+	*/
+	min-width: 500px; /* Para valores menores, apaerecerá a barra de rolagem */
+	/* 
+		EXISTE TAMBÉM, TANTO O MAX-HEIGHT QUANTO O MIN-HEIGHT, 
+		QUE FUNCIONAM COM AS MESMAS IDEIAS.
+	*/
+	background-color: green;
+	color: #fff;
+	padding: 20px;
+}
