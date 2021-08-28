@@ -1,0 +1,29 @@
+#exemplo {
+	background-color: green;
+	color: #fff;
+	width: 500px;
+	/* Propriedades individuais 
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	*/
+	/* Propriedade estenográfica
+	Sentido horário: [TOP] [RIGHT] [BOTTOM] [LEFT]*/
+	padding: 10px 20px 30px 30px;
+}
+
+#exemplo2 {
+	background-color: red;
+	color: #fff;
+	width: 500px;
+	/* Propriedades individuais
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	*/
+	/* Propriedades estenográfica 
+	Sentido horário: [TOP] [RIGHT] [BOTTOM] [LEFT]*/
+	margin: 20px 20px 10px 20px;
+}
