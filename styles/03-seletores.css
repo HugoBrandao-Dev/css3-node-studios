@@ -1,0 +1,55 @@
+/* 
+	O SELETOR UNIVERSAL é utilizado mais para criar um reset da página 
+	um comportamento inicial para a mesma.
+*/
+* {
+	margin: 0;
+	padding: 0;
+	color:  red;
+}
+
+/* 
+	Criado para mostrar que seletores específicos tem prioridade sobre
+	os seletores universais.
+h1 {
+	color: blue;
+	font-size: 60px;
+	font-family: Tahoma;
+}
+*/
+
+/* Seletores por TAG */
+h1 {
+	color: blue;
+	font-size: 50px;
+}
+
+p {
+	color: green;
+	font-size: 12px;
+}
+
+/* Seletores por ATRIBUTO */
+
+input[type="text"] {
+	width: 200px;
+	height: 35px;
+	border: none;
+	background-color: #ccc;
+}
+
+input[name="email"] {
+	width: 200px;
+	height: 35px;
+	border: none;
+	background-color: #ccc;
+}
+
+input[type="submit"] {
+	width: 50px;
+	background-color: green;
+	height: 35px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+}
