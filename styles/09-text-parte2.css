@@ -1,0 +1,33 @@
+p {
+	color: red;
+	text-align: justify;
+	/* Espaçamento na primeira linha (como um parágrafo) */
+	text-indent: 20px;
+	line-height: 25px;
+	/* Direção do texto: rtl (right to left) e ltr (left to right) */
+	direction: rtl;
+	/* Espaçamento entre LETRAS */
+	letter-spacing: 5px;
+	/* Espaçamento entre PALAVRAS */
+	word-spacing: 5px;
+}
+
+h1 {
+	text-align: left;
+	text-decoration: underline;
+	text-transform: uppercase;
+	/* Sombra no texto: [HORIZONTAL] [VERTICAL] |[DESFOQUE] OPCIONAL| [COR] */
+	text-shadow: 3px 3px 3px red;
+}
+
+h2 {
+	text-align: right;
+	text-decoration: overline;
+	text-transform: lowercase;
+}
+
+h3 {
+	text-align: center;
+	text-decoration: line-through;
+	text-transform: capitalize;
+}
