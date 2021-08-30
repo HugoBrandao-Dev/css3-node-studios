@@ -1,0 +1,23 @@
+p {
+	color: red;
+}
+
+h1 {
+	text-align: left;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+h2 {
+	text-align: right;
+	text-decoration: overline;
+	text-transform: lowercase;
+}
+
+h3 {
+	text-align: center;
+	/* Fica com uma linha no centro da palavra (ela fica riscada) */
+	text-decoration: line-through;
+	/* Primeira letra de cada palavra fica maiúscula */
+	text-transform: capitalize;
+}
