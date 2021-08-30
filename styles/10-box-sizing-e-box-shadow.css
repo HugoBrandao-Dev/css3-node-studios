@@ -1,0 +1,15 @@
+* {
+	/* 
+		Faz com que espessura da borda e do padding não sejam somadas 
+		com a dimensão do elemento, não alterando a dimensão real do 
+		mesmo.
+	 */
+	box-sizing: border-box;
+}
+#conteudo {
+	background-color: red;
+	width: 300px;
+	padding: 20px;
+	/* Sombra da caixa: [HORIZONTAL] [VERTICAL] [DESFOQUE] [COR] */
+	box-shadow: 10px 10px 5px green;
+}
