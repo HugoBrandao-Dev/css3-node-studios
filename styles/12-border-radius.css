@@ -1,0 +1,20 @@
+#bloco {
+	background-color: green;
+	width: 300px;
+	height: 150px;
+	/* 
+		Borda arredondada:
+		[SUPERIOR DIREITA e SUPERIOR ESQUERDA e INFERIOR DIREITA E INFERIOR ESQUERDA]
+		[SUPERIOR ESQUERDA e INFERIOR DIREITA] [SUPERIOR DIREITA e INFERIOR ESQUERDA]
+		[SUPERIOR ESQUERDA] [SUPERIOR DIREITA e INFERIOR ESQUERDA] [INFERIOR DIREITA]
+		[SUPERIOR ESQUERDA] [SUPERIOR DIREITA] [INFERIOR DIREITA] [INFERIOR ESQUERDA]
+	*/
+	/* Propriedade estenográfica */
+	/*border-radius: 20px 50px 100px 75px;*/
+
+	/* Propriedades individuais */
+	border-top-left-radius: 20px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 75px;
+}
