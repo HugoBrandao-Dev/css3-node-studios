@@ -1,0 +1,16 @@
+@font-face {
+	/* 
+	O nome que será usado caso queiramos utilizar esta fonte em 
+	algum lugar do código
+	*/
+	font-family: fraunces;
+	/* 
+	A fonte foi baixada do FontSquirrel e convertida neste mesmo site,
+	na seção de Generator
+	*/
+	src: url(../fonts/frauncessoftwonkopszwght-webfont.woff);
+}
+
+p {
+	font-family: fraunces;
+}
