@@ -1,0 +1,24 @@
+* {
+	font-size: 100%;
+}
+p {
+	/* 
+	Nomes de fontes compostas por mais de uma palavra, usamos aspas.
+
+	Primeiro o navegador tentará encontrar "Times", caso não encontre
+	ele tentará "Times New Roman" e por último, caso ele também não
+	encontre a segunda, ele usará uma fonte generica "serif"
+	 */
+	/*font-family: Times, "Times New Roman", serif;*/
+	font-family: Arial, Verdana, sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-style: italic;
+	/* 
+	A unidade "em" deve ser combinada com a font-size da configação
+	seletor universal.
+	
+	1em = 16px (padrão) 
+	*/
+	font-size: 2.5em;
+}
