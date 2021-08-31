@@ -1,0 +1,16 @@
+* {
+	font-size: 100%;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+}
+.primeiro-paragrafo {	
+	font-weight: 100;
+}
+.segundo-paragrafo {
+	font-weight: 200;
+}
+.terceiro-paragrafo {
+	font-weight: 300;
+}
