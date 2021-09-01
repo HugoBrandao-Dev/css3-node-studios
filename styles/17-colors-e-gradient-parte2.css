@@ -1,0 +1,19 @@
+#cores {
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+	/* Normal
+	background: linear-gradient(to left,blue,white,red);
+	*/
+	/* Com direção diagonal
+	background: linear-gradient(to top left,blue,white,red);
+	*/
+	/* Utilizando ângulos
+	background: linear-gradient(70deg,blue,white,red);
+	*/
+	/* Utilizando cor com Alpha
+	background: linear-gradient(to bottom right,rgba(0,0,255,0.5),white,red);
+	*/
+	background: radial-gradient(blue,white,red);
+	box-shadow: 0px 0px 5px black;
+}
