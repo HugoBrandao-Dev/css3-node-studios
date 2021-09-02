@@ -1,0 +1,36 @@
+#exemplo1 {
+	/* Propriedades individuais */
+	/* Pode receber, ainda: dotted, dashed, solid, double, groove,
+	ridge, inset */
+	border: outset;
+	border-width: 5px;
+	border-color: red;
+}
+#exemplo2 {
+	/* Propriedade estenográfica */
+	border: inset 4px green;
+}
+#exemplo3 {
+	/* Modificando bordas individualmente */
+	border-top-style: solid;
+	border-top-color: blue;
+	border-top-width: 3px;
+
+	border-bottom-style: solid;
+	border-bottom-color: blue;
+	border-bottom-width: 3px;
+
+	border-left-style: dotted;
+	border-left-color: blue;
+	border-left-width: 3px;
+
+	border-right-style: dashed;
+	border-right-color: blue;
+	border-right-width: 3px;
+}
+#exemplo4 {
+	border: solid 2px pink;
+	/* Trabalha na parte externa do elemento e NÃO trabalha com as
+	propriedades individuais */
+	outline: dotted 5px purple;
+}
