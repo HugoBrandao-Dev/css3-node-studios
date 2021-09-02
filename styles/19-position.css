@@ -1,0 +1,19 @@
+#conteudo {
+	width: 600px;
+	height: 1200px;
+	background-color: red;
+	/* 
+		Para que os elemento internos que tiverem position: absolute
+		tenham como referência esse elemento (fiquem dentro deste).
+	 */
+	position: relative;
+}
+#texto {
+	width: 500px;
+	background-color: green;
+	/* Permite posicionar o elemento em qualquer lugar da página */
+	/*position: absolute;*/
+	position: fixed;
+	left: 0;
+	top: 0;
+}
