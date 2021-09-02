@@ -1,0 +1,21 @@
+body {
+	/* Propriedades individuais */
+	/*background-image: url(../images/bg-forest-small.jpg);*/
+	/* Para repetir ou não uma imagens, caso ela seja pequena. Recebe
+	ainda: repeat-x, repeat-y */
+	/*background-repeat: no-repeat;*/
+	/* O position depende do conteúdo que a página tem, e também pode
+	receber duas posições, a primeira pode ser left, center ou right, e
+	a segunda pode ser top, center ou bottom.
+	*/
+	/*background-position: center;*/
+	/* Define se a imagem acompanha ou não a barra de rolagem, tendo
+	como valor padrão "scroll" */
+	/*background-attachment: fixed;*/
+	/*background-size: 100% 50%;*/
+
+	/* Propriedade estenografica */
+	/* background: [CAMINHO] [POSITION]/[SIZE][REPEAT] [ATTACHMENT]; */
+	/***NÃO ESQUECER DA BARRA ENTRE O POSITION E O SIZE***/
+	background: url(../images/bg-forest-small.jpg) center center/100% 50% no-repeat fixed;
+}
