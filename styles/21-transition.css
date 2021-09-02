@@ -1,0 +1,29 @@
+#exemplo1 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	/* Propriedades individuais */
+	/* transition-property também pode receber o valor "all", indicando
+	que todas as trasições terão as mesmas configurações */
+	transition-property: width;
+	transition-duration: 2s;
+	/* Pode receber, ainda:
+	ease [Começa rápida e termina lenta] *
+	ease-in [Começa lenta e termina rápida]
+	ease-out [Começa rápida e termina lenta] *
+	ease-in-out [Começa lenta e termina lenta]
+	* Aparentam serem os mesmos
+	*/
+	transition-timing-function: linear;
+	transition-delay: 2s;
+	/* Propriedade estenográfica 
+	[Property] [Duration] [Timing-function] [Delay]
+	*/
+	/*transition: width 2s linear 2s, height 2s linear;*/
+}
+/* hover é uma pseudoclasse */
+#exemplo1:hover {
+	width: 350px;
+	height: 350px;
+	background-color: green;
+}
