@@ -1,0 +1,33 @@
+/* Variáveis */
+:root {
+	/* Primeiro esquema de cores feito pelo professor */
+	--div1-bg-color: blue;
+	--div1-cor-do-texto: #fff;
+	--div1-espacamento: 20px;
+
+	/* Segundo esquema de cores feito por mim */
+	--div2-bg-color: orange;
+	--div2-cor-do-texto: white;
+	--div2-espacamento: 40px;
+
+	/* Terceiro esquema de cores feito por mim */
+	--div3-bg-color: yellow;
+	--div3-cor-do-texto: purple;
+	--div3-espacamento: 10px;
+}
+
+#div1 {
+	background-color: var(--div1-bg-color);
+	color: var(--div1-cor-do-texto);
+	padding: var(--div1-espacamento);
+}
+#div2 {
+	background-color: var(--div2-bg-color);
+	color: var(--div2-cor-do-texto);
+	padding: var(--div2-espacamento);
+}
+#div3 {
+	background-color: var(--div3-bg-color);
+	color: var(--div3-cor-do-texto);
+	padding: var(--div3-espacamento);
+}
