@@ -1,0 +1,43 @@
+.container {
+	background-color: red;
+	width: 500px;
+	margin: 0 auto;
+}
+.box {
+	width: 150px;
+	height: 150px;
+}
+.box1 {
+	background-color: green;
+	float: left;
+}
+.box2 {
+	background-color: blue;
+	float: right;
+}
+/*.box3 {
+	background-color: purple;
+	float: right;
+	height: 200px;
+}*/
+/* 
+O clearfix é utilizado para corrigir eventuais problemas que podem
+surgir ao utilizarmos float e seus valor.
+As pseudoclasses ::before e ::after servem para adicionar conteúdo 
+ao elemento via CSS3, neste caso não utilizaremos conteúdo.
+*/
+.container::before, .container::after {
+	content: '';
+	display: table;
+}
+
+.container::after {
+	/* 
+	O clear tem como referência TODOS os elementos internos que 
+	tenham RIGHT ou todos que tenham LEFT como valor de float,
+	fazendo com que as dimensões do elemento container se adeque
+	as dimensoes desses outros elementos internos.
+	*/
+	/* Aceita, ainda: left, right */
+	clear: both;
+}
