@@ -1,0 +1,11 @@
+body {
+	background-color: blue;
+}
+button[type="button"] {
+	background-color: white;
+	color: red;
+	width: 100px;
+	height: 50px;
+	border: solid 2px currentColor;
+	cursor: pointer;
+}
