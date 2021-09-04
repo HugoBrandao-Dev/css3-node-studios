@@ -1,0 +1,27 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+img {
+	margin-top: 30px;
+	/*
+	blur = desfoque (px);
+	brightness = brilho (%);
+	contrast = contraste (%);
+	grayscale = escala de cinza (%);
+	invert = inverter as cores (%);
+	opacity = opacidade (%);
+	saturate = saturação (%);
+	sepia = "amarelada" (%);
+	hue-rotate = mudaça de cores(deg);
+	drop-shadow = sobreamente na imagem, como o box-shadow ([HORIZONTAL] [VERTICAL] [BLUR] [COR]).
+	** PODEMOS ADICIONAR MAIS DE UM FILTRO **
+	*/
+	filter: drop-shadow(10px 5px 5px black) contrast(150%);
+}
